@@ -554,7 +554,40 @@ video {
   display: none;
 }
 
-.bg-blue-700 {
+.flex {
+  display: flex;
+}
+
+.h-\[42px\] {
+  height: 42px;
+}
+
+.h-\[82px\] {
+  height: 82px;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.bg-\[\#C8F169\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+  background-color: rgb(200 241 105 / var(--tw-bg-opacity, 1));
+}
+
+.text-\[\#043F2E\] {
+  --tw-text-opacity: 1;
+  color: rgb(4 63 46 / var(--tw-text-opacity, 1));
 }
